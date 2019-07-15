@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Responsive Website
+	</title>
+
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Flamenco" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+	<header>
+	<div class="login_wrapper">
+	<div class="animate form login_form">
+          <section class="login_content">
+
+	<div class="foms">
+		<form>
+			<div class="inputs">
+				<label class="text">Email or Phone</label><br>
+				<input id="input-box" class="form-horizontal" type="text" name="username"/>
+			</div>
+		<div class="inputs">
+			<label class="text">Password</label><br>
+		<input id="input-box" class="form-horizontal"  type="password" name="password"/>
+		</div>
+		<button class="login-btn"type="submit">Login</button>
+	</form>	
+	</div>
+	</div>
+	</section>	
+	</div>
+	</div>
+
+
+
+		<nav>
+			<div class="row clearfix">
+				<a href="index.html">
+				<img src="images/logo.png" class="logo">
+				</a>
+				<ul class="main-nav animated slideInDown" id="check-class">
+					<li><a href="about.html">About</a></li>
+					<li><a href="#">Register</a>
+						<ul id="specialcolor" class="dropdown">
+							<li><a href="renter.html">As Renter</a></li>
+							<li><a href="landlord.html">As Landlord</a></li>
+						</ul>
+					</li>
+				</ul>
+				<a href="#" class="mobile-icon" onclick="slideshow()">
+					<i class="fa fa-bars"></i>
+				</a>
+			</div>
+		</nav>
+
+			<div class="main-content-header">
+				<h1>WELCOME TO <span class="colorchange">ROOM FINDER</span><br>
+					STAY WITH YOUR CHOICE
+				</h1>
+				</div>
+				<div>
+				 <a href="#" class="btnn btn-full">Button1</a>
+				<a href="#" class="btnn btn-nav">Button2</a> 
+
+				
+ 				</div>
+				<!-- <div class = "row">
+				 					<div class="col-md-3 ">	
+				 						
+					 					<button type="button" class="btn btn-full ">Primary</button>
+				 					</div>
+				 					</div>
+				 					</div>
+				 					<div class = "row">
+				 					<div class="col-md-2 ">	
+				 						
+					 					<button type="button" class="btn btn-full ">Primary</button>
+				 					</div>
+				 					</div>
+				 					</div> -->
+					
+			
+
+			</div>
+
+			
+
+			<!-- The form -->
+			
+			<div id="p" class="container my-5">
+				<div class="form-group">
+					<form class="example" action="action_page.php">
+					<input type="text" class="form-control" placeholder="Where do you want to live?" name="search" align="right" width="48">
+					<button type="submit"><i class="fa fa-search"></i></button>
+					<!-- <form class="example" action="action_page.php">
+						  				<input type="text" placeholder="Where do you want to live???" name="search">
+						 				<button type="submit"><i class="fa fa-search"></i></button> -->
+	 				</form>
+ 				</div>
+ 				
+ 				
+				
+			</div>
+			
+
+
+			
+	</header>
+
+	<footer>
+		<div class="bottom">
+				<span class="calltoaction_area_label calltoaction-post-room-label">
+					Looking for a tenant or a roommate?
+					
+				</span>
+			
+				<a href="postyourroom.html" class="button button-green">
+				Post your room</a>
+			</div> 
+			
+	</footer>
+
+	<script type="text/javascript">
+
+		function slideshow(){
+			var x=document.getElementById('check-class');
+			if(x.style.display=== "none")
+				{
+				x.style.display="block"	;
+				}
+			else
+				{
+			x.style.display="none";
+				}
+	}
+	</script>
+
+</body>
+</html>

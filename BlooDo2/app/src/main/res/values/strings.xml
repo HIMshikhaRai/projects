@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">BlooDo</string>
+
+    <string name="Enteraddress">Enter address</string>
+    <string name="EnterBloodGroup">Enter Blood Group</string>
+    <string name="Search">Search</string>
+    <string name="RegisterasDonor">Register as donor</string>
+    <string name="SetDonationEvent">Set donation event</string>
+    <string name="ChangeLanguage">Change Language</string>
+    <string name="showDonor">Show Donor </string>
+    <string name="bloodbank">Blood Banks</string>
+
+
+    //Registration
+
+    <string name="donorReg">Donor Registration</string>
+    <string name="enterName">Enter Name</string>
+    <string name="enterPhone">Enter Phone</string>
+    <string name="enterEmail">Enter Email Id</string>
+    <string name="enterPassword">Enter Password</string>
+    <string name="enterAddress">Enter Address</string>
+    <string name="enterBloodGroup">Enter Blood Group</string>
+    <string name="button">Register</string>
+    <string name="button3">Login</string>
+
+    //Login
+
+    <string name="login">Login</string>
+    <string name="password">Enter Password</string>
+    <string name="email">Enter Email Id</string>
+
+    //Set donation
+
+    <string name="title">Set Donation Event</string>
+    <string name="date">Enter Date</string>
+    <string name="time">Enter Time</string>
+    <string name="location">Enter Location</string>
+    <string name="set">Setup</string>
+    <string name="event">Donation Events</string>
+
+    //Your data
+
+    <string name="account">You have logged into your account!!!!</string>
+    <string name="changedetail">Change your details</string>
+
+</resources>

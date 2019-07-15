@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "579510642451",
+    "firebase_url": "https://bloodo-601e8.firebaseio.com",
+    "project_id": "bloodo-601e8",
+    "storage_bucket": "bloodo-601e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579510642451:android:2f54771bb938cb22",
+        "android_client_info": {
+          "package_name": "com.example.himshikha.bloodo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "579510642451-12u9v58udu7k9ln706il2plqjvj93e6c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDGcIYrigXYT3oKd8FE8kNVnx2c7NulcQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

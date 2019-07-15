@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bloodBanks">
+
+    <Button
+        android:id="@+id/callRedCrossk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignStart="@+id/callRed"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginBottom="101dp"
+        android:text="Call Red Ktm" />
+
+    <TextView
+        android:id="@+id/redKtm"
+        android:layout_width="264dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="303dp"
+        android:text="Red Cross Society Blood Bank, Kathmandu"
+        android:textColorLink="@color/colorAccent"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/callYouth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignStart="@+id/callRed"
+        android:layout_centerVertical="true"
+        android:text="Call Youth" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="267dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="184dp"
+        android:text="Youth for Blood"
+        android:textColorLink="@color/colorAccent"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="269dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="56dp"
+        android:text="Red Cross Society Blood Bank, Balkumari"
+        android:textColorLink="@color/colorAccent"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/callRed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="59dp"
+        android:layout_marginLeft="59dp"
+        android:layout_marginTop="119dp"
+        android:text="Call Red cross" />
+
+</RelativeLayout>

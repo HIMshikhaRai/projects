@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">BlooDo</string>
+
+    <string name="Enteraddress">Entrer l\'adresse</string>
+    <string name="EnterBloodGroup">Entrez le groupe sanguin</string>
+    <string name="Search">Chercher</string>
+    <string name="RegisterasDonor">S\'inscrire en tant que donateur</string>
+    <string name="SetDonationEvent">Définir un événement de donation</string>
+    <string name="ChangeLanguage">Changer de langue</string>
+    <string name="showDonor">Montrer le donateur</string>
+    <string name="bloodbank">Banques de sang</string>
+
+
+    //Registration
+
+    <string name="donorReg">Enregistrement des donateurs</string>
+    <string name="enterName">Entrez le nom</string>
+    <string name="enterPhone">Entrez le téléphone</string>
+    <string name="enterEmail">Entrer Email Id</string>
+    <string name="enterPassword">Entrer le mot de passe</string>
+    <string name="enterAddress">Entrer l\'adresse</string>
+    <string name="enterBloodGroup">Entrez le groupe sanguin</string>
+    <string name="button">registre</string>
+    <string name="button3">S\'identifier</string>
+
+    //Login
+
+    <string name="login">S\'identifier</string>
+    <string name="password">Entrer le mot de passe</string>
+    <string name="email">Entrer Email Id</string>
+
+    //Set donation
+
+    <string name="title">Définir un don</string>
+    <string name="date">Entrez la date</string>
+    <string name="time">Entrez l\'heure</string>
+    <string name="location">Entrez l\'emplacement</string>
+    <string name="set">Installer</string>
+    <string name="event">Événements de donation</string>
+
+    //Your data
+
+    <string name="account">Vous êtes connecté à votre compte !!!!</string>
+    <string name="changedetail">Changer vos coordonnées</string>
+
+
+</resources>

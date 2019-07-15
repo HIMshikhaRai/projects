@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Post your room
+	</title>
+	<link rel="stylesheet" type="text/css" href="css/stylepost.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+	<body>
+		<header>
+		<div class="main-header clearfix">
+			<img src="images/logo.png" class="logo">
+			<!-- <div class="header-post"> -->
+				<h1>Post your room</h1>
+			<!-- </div> -->
+		</div>
+		<h1 class="heading heading">Location</h1>
+
+			<form class="example" action="action_page.php">
+  				<input type="text" placeholder="Enter location" name="search">
+ 				<button type="submit"><i class="fa fa-search"></i></button>
+			</form>
+
+			<div id="map">
+				
+			</div>
+
+			<script type="text/javascript">
+				function initMap(){
+					var location = {lat: 27.717245, lng: 85.323959};
+					var map = new google.maps.Map(document.getElementById("map"),{zoom: 4, center: location});
+
+					var marker = new google.maps.Marker({
+						position: location,map: map
+					})
+				}
+			</script>
+
+			<script type="text/javascript" async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD9f2I1PT6UDgBdToMhHD2tB7uIOWJJ03M&callback=initMap">
+				
+			</script>
+
+			<div>
+			<h1 class="about-you">About you</h1>
+			<form class="form" action="action_page.php">
+  				<input type="text" placeholder="Name" name="name">
+  				<input type="text" placeholder="Phone number" name="phone">
+  				<input type="text" placeholder="Email" name="email">
+  				<input type="text" placeholder="Password" name="password">
+			</form>
+			</div>
+
+			<div>
+			<h1 class="about-room">About room</h1>
+			<form class="room" action="action_page.php">
+ 			<input type="radio" name="gender" value="male" checked> Male
+ 			<input type="radio" name="gender" value="female"> Female
+  			<input type="radio" name="gender" value="other"> Other  
+			</form> 
+			</div>
+
+		</header>
+	</body>
+
+</html>

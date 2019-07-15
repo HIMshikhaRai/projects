@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BlooDo</string>
+
+    <string name="Enteraddress">ठेगाना प्रविष्ट गर्नुहोस्</string>
+    <string name="EnterBloodGroup">आफ्नो रगत समूह प्रविष्ट गर्नुहोस्</string>
+    <string name="Search">खोज्नुहोस्</string>
+    <string name="RegisterasDonor">डोनरको रूपमा दर्ता गर्नुहोस्</string>
+    <string name="SetDonationEvent">दान घटना सेट गर्नुहोस्</string>
+    <string name="ChangeLanguage">भाषा परिवर्तन गर्नुहोस्</string>
+    <string name="showDonor"> डोनर </string>
+    <string name="bloodbank">रक्त बैंक</string>
+
+
+    //Registration
+
+    <string name="donorReg">दाता दर्ता</string>
+    <string name="enterName">नाम प्रविष्ट गर्नुहोस्</string>
+    <string name="enterPhone">फोन प्रविष्ट गर्नुहोस्</string>
+    <string name="enterEmail">इमेल आइडी प्रविष्ट गर्नुहोस्</string>
+    <string name="enterPassword">पासवर्ड प्रविष्ट गर्नुहोस्</string>
+    <string name="enterAddress">ठेगाना प्रविष्ट गर्नुहोस्</string>
+    <string name="enterBloodGroup">रक्त समूह प्रविष्ट गर्नुहोस्</string>
+    <string name="button">दर्ता गर्नुहोस्</string>
+    <string name="button3">लग - इन</string>
+
+    //Login
+
+    <string name="login">लग - इन</string>
+    <string name="password">पासवर्ड प्रविष्ट गर्नुहोस्</string>
+    <string name="email">इमेल आइडी प्रविष्ट गर्नुहोस्</string>
+
+    //Set donation
+
+    <string name="title">दान घटना सेट गर्नुहोस्</string>
+    <string name="date">मिति प्रविष्टि गर्नुहोस्</string>
+    <string name="time">समय प्रविष्ट गर्नुहोस्</string>
+    <string name="location">स्थान प्रविष्ट गर्नुहोस्</string>
+    <string name="set">सेटअप</string>
+    <string name="event">दान कार्यक्रमहरू</string>
+
+    //Your data
+
+    <string name="account">तपाईंले आफ्नो खातामा लग इन गर्नुभयो !!!!</string>
+    <string name="changedetail">आफ्नो विवरण परिवर्तन गर्नुहोस्</string>
+
+</resources>

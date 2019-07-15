@@ -1,0 +1,175 @@
+
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	font-size: 20px;
+	overflow-x: hidden;
+	background-color: #C0C0C0;
+	/*font-family: 'Flamenco', cursive;*/
+}
+
+.main-header{
+	max-width: 1180px;
+	margin: 0 auto;
+}
+
+.clearfix:after{
+	content: ".";
+	visibility: hidden;
+	display: block;
+	height: 0px;
+	clear: both;
+}
+
+.main-header{
+	max-width: 1180px;
+	margin: 0 auto;
+}
+
+.logo{
+	height: 120px;
+	width: auto;
+	float: left;
+	margin-top: 20px;
+	margin-left: 5px;
+}
+
+.header-post{
+	float: right;
+	font-size: 60%;
+	word-spacing: 4px;
+	letter-spacing: 2px;
+}
+.header-post{
+	width: 1180px;
+	position: absolute;
+}
+
+h1{
+	color: #bf55ec;
+	font-weight: lighter;
+}
+
+.heading{
+	color: #696969;
+	font-weight: lighter;
+	font-size: 120%;
+	margin-left: 25%;
+	margin-top: 20px;
+	margin-right: 30%;
+	border-bottom: 1px solid #808080;
+	/*padding-bottom: 5px;*/
+}
+
+
+
+form.example input[type=text] {
+	float: left;
+	padding: 10px;
+  	font-size: 17px;
+  	border: 1px solid grey;
+  	float: left;
+  	margin-left: 25%;
+  	margin-top: 2%;
+  	width: 40%;
+  	background: #f1f1f1;
+  	margin-bottom: 20px;
+}
+
+/* Style the submit button */
+form.example button {
+  	float: left;
+  	width: 5%;
+  	padding: 10px;
+  	background: #2196F3;
+  	color: white;
+  	font-size: 17px;
+  	border: 1px solid grey;
+  	border-left: none; /* Prevent double borders */
+  	cursor: pointer;
+  	margin-top: 2%;
+  	margin-bottom: 20px;
+}
+
+form.location-search button:hover {
+  	background: red;
+}
+
+form.location-search::after {
+  	content: "";
+  	clear: both;
+  	display: table;
+}
+
+#map{
+	height: 450px;
+	width: 690px;
+	margin-left: 25%;
+	
+}
+
+@media only screen and (max-width: 635px){
+	#map{
+		height: 250px;
+		width: 300px;
+	}
+
+}
+
+@media only screen and (max-width: 952px){
+	#map{
+		height: 300px;
+		width: 400px;
+	}
+}
+
+.about-you{
+	color: #696969;
+	font-weight: lighter;
+	font-size: 120%;
+	margin-left: 25%;
+	margin-top: 20px;
+	margin-right: 30%;
+	border-bottom: 1px solid #808080;
+}
+
+form.form input[type=text] {
+	float: left;
+	padding: 10px;
+  	font-size: 17px;
+  	border: 1px solid grey;
+  	margin-left: 25%;
+  	margin-top: 2%;
+  	width: 40%;
+  	background: #f1f1f1;
+  	margin-bottom: 2px;
+}
+
+.about-room{
+	position: fixed;
+	color: #696969;
+	font-weight: lighter;
+	font-size: 120%;
+	margin-left: 25%;
+	margin-top: 2px;
+	margin-right: 30%;
+	border-bottom: 1px solid #808080;
+
+}
+
+form.room input[type=text] {
+	float: left;
+	padding: 10px;
+  	font-size: 17px;
+  	border: 1px solid grey;
+  	margin-left: 25%;
+  	margin-top: 2%;
+  	width: 40%;
+  	background: #f1f1f1;
+  	margin-bottom: 2px;
+}
+
